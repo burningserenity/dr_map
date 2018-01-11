@@ -1,0 +1,33 @@
+{
+  "name": "dr_map",
+  "version": "0.0.1",
+  "description": "A puzzle game for RMAT patients",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burningserenity/dr_map.git"
+  },
+  "keywords": [
+    "humanpara",
+    "map",
+    "rmat",
+    "amat",
+    "crohn's",
+    "ms",
+    "diabetes",
+    "uc"
+  ],
+  "author": "burningserenity",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/burningserenity/dr_map/issues"
+  },
+  "homepage": "https://github.com/burningserenity/dr_map#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-cassandra": "^2.1.1"
+  }
+}
