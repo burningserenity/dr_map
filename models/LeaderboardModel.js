@@ -4,6 +4,6 @@ module.exports = {
     score: "int",
     player: "text",
     created: "timestamp"
-  }
+  },
   key:["position"]
 }

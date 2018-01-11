@@ -18,7 +18,9 @@ models.setDirectory(__dirname + '/models').bind({
     },
     migration: 'safe'
   }
-}, err => if (err) throw err);
+}, err => {
+  if (err) throw err
+});
 
 // Server port
 const port = 8080
